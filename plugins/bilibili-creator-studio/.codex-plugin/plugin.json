@@ -1,0 +1,24 @@
+{
+  "name": "bilibili-creator-studio",
+  "version": "0.1.0",
+  "description": "Source-grounded Bilibili content planning from topic validation to shootable scripts, previews, publishing packages, and retrospectives.",
+  "author": {
+    "name": "yety1113"
+  },
+  "license": "MIT",
+  "keywords": ["bilibili", "creator", "video-script", "vlog", "talking-head", "comedy"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "B站创作者工作台",
+    "shortDescription": "从选题验证到可拍脚本、预览与复盘的创作工作流",
+    "longDescription": "帮助不同经验阶段的创作者完成账号与受众诊断、选题研究、知识口播/Vlog/脱口秀形态选择、可调语气逐字稿、音画预览、发布包装和数据复盘。",
+    "developerName": "yety1113",
+    "category": "Productivity",
+    "capabilities": ["Research", "Analyze", "Write"],
+    "defaultPrompt": [
+      "把我的想法发展成一个可拍的B站视频方案。",
+      "比较知识口播、Vlog和脱口秀，帮我选择最合适的表达形态。",
+      "审阅这份脚本，并生成音画预览与修改清单。"
+    ]
+  }
+}

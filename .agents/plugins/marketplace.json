@@ -1,0 +1,20 @@
+{
+  "name": "bilibili-creator-studio-github",
+  "interface": {
+    "displayName": "B站创作者工作台"
+  },
+  "plugins": [
+    {
+      "name": "bilibili-creator-studio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bilibili-creator-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

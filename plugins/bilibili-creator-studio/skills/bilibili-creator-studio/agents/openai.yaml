@@ -1,0 +1,7 @@
+interface:
+  display_name: "B站创作者工作台"
+  short_description: "从选题验证到可拍脚本、音画预览和发布复盘的完整工作流"
+  default_prompt: "使用 $bilibili-creator-studio 把我的想法发展成可拍、可预览、可复盘的 B 站视频方案。"
+
+policy:
+  allow_implicit_invocation: true
